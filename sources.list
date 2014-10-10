@@ -1,0 +1,15 @@
+Debian Repositories (Italy)
+
+deb http://mi.mirror.garr.it/mirrors/debian/ wheezy main non-free contrib
+deb-src http://mi.mirror.garr.it/mirrors/debian/ wheezy main non-free contrib
+
+deb http://security.debian.org/ wheezy/updates main contrib non-free
+deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+
+# wheezy-updates, previously known as 'volatile'
+deb http://mi.mirror.garr.it/mirrors/debian/ wheezy-updates main contrib non-free
+deb-src http://mi.mirror.garr.it/mirrors/debian/ wheezy-updates main contrib non-free
+
+# wheezy-backports
+deb http://mi.mirror.garr.it/mirrors/debian wheezy-backports main contrib non-free
+deb-src http://mi.mirror.garr.it/mirrors/debian wheezy-backports main contrib non-free
